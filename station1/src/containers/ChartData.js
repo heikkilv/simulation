@@ -1,3 +1,8 @@
+/*
+* Copyright 2022 Tampere University
+* This source code is licensed under the MIT license. See LICENSE in the repository root directory.
+* Author(s): "Anh Pham (TAU)" <anh.pham@tuni.fi>
+*/
 import React, {useEffect, useState} from "react";
 import io from 'socket.io-client'
 import {
