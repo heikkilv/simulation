@@ -37,4 +37,4 @@ The client runs at the address `localhost:3000`, where the user can set when the
 
 The power is distributed depending on the charging duration set by the user. The graphs below indicate such distribution and the corresponding battery percentage increase.
 
-![image](IMG_0050.jpg)
+![image](IMG_0053.jpg)
