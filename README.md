@@ -15,14 +15,14 @@ station1/src/               --> Directory of one user client
 │   ├── ChartData.js        --> Chart information of one user client.
 │   │                           Child component of StationContainer.js
 │   └── StationContainer.js --> Contains all stations information of one user client.
-│   │                           Child component of App.js
+│                               Child component of App.js
 ├── App.css                 --> CSS file for displaying the client
 ├── db.json                 --> Database regarding the stations
 ├── index.js                --> Runs the client.
 
 backend/
 ├── index.html              --> Displaying the chart updates
-├── index.js                --> Running the backend server
+└── index.js                --> Running the backend server
 ```
 ## Getting started
 
