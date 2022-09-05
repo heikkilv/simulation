@@ -1,7 +1,7 @@
 # Documentation
 
 ## File structure
-
+```
 station1/src/               --> Directory of one user client
 ├── components
 │   ├── Clock.js            --> Real-time clock. Child component of App.js
@@ -23,7 +23,7 @@ station1/src/               --> Directory of one user client
 backend/
 ├── index.html              --> Displaying the chart updates
 ├── index.js                --> Running the backend server
-
+```
 ## Getting started
 
 station1: `npm install` & `npm start`
