@@ -1,0 +1,13 @@
+.station-container {
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+.station {
+  background-color: lightblue;
+  padding-left: 300px;
+  border: 3px solid black;
+}
+
+li {
+  list-style-type: none;
+}

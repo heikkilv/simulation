@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "chartjs-adapter-luxon": "^1.2.0",
+    "chartjs-plugin-streaming": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "http-serve": "^1.0.1",
+    "http-server": "^14.1.1",
+    "luxon": "^3.0.1",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "recharts": "^2.1.13"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

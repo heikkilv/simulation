@@ -1,0 +1,10 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Station 1",
+            "maximumPower": 35,
+            "duration": 1
+        }
+    ]
+}
