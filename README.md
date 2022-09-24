@@ -24,10 +24,16 @@ backend/
 ├── index.html              --> Displaying the chart updates
 └── index.js                --> Running the backend server
 ```
+
 ## Getting started
 
 station1: `npm install` & `npm start`
 backend: `npm install` & `npm run nodemon` and on another cmd line: `http-server --cors`
+
+## Docker deployment
+
+- Edit [`db.json`](./db.json) to modify the available charging stations
+- Run: `docker-compose up --build`
 
 ## How to operate
 
