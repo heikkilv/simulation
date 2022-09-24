@@ -32,8 +32,9 @@ backend: `npm install` & `npm run nodemon` and on another cmd line: `http-server
 
 ## Docker deployment
 
-- Edit [`db.json`](./db.json) to modify the available charging stations
-- Run: `docker-compose up --build`
+- To build images: `docker-compose build`
+- To configure charging stations: edit [`db.json`](./db.json)
+- To run: `docker-compose up`
 
 ## How to operate
 
