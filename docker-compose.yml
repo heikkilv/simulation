@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  station:
+    build: station1
+    image: evcommunities/simulation-station:0.1.0
+    ports:
+      - 3000:3000
+    volumes:
+      - ./db.json:/station/src/db.json
+
+  backend:
+    build:
+      context: backend
+      dockerfile: Dockerfile-backend
+    image: evcommunities/simulation-backend:0.1.0
+    ports:
+      - 8888:8888
+
+  client:
+    build:
+      context: backend
+      dockerfile: Dockerfile-client
+    image: evcommunities/simulation-client:0.1.0
+    ports:
+      - 8080:8080

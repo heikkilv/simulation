@@ -1,0 +1,10 @@
+FROM node:16.17-slim
+
+RUN npm install --global http-server
+
+RUN mkdir -p /client
+WORKDIR /client
+
+COPY index.html index.html
+
+CMD [ "http-server", "--cors" ]

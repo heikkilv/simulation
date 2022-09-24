@@ -1,0 +1,34 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Station 1",
+            "maximumPower": 35,
+            "duration": 1
+        },
+        {
+            "id": 2,
+            "name": "Station 2",
+            "maximumPower": 25,
+            "duration": 1
+        },
+        {
+            "id": 3,
+            "name": "Station 3",
+            "maximumPower": 15,
+            "duration": 1
+        },
+        {
+            "id": 4,
+            "name": "Station 4",
+            "maximumPower": 5,
+            "duration": 1
+        },
+        {
+            "id": 5,
+            "name": "Station 5",
+            "maximumPower": 75,
+            "duration": 1
+        }
+    ]
+}
